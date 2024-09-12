@@ -5,6 +5,39 @@
 }
 
 body{
-    background-color:  hsl(148, 38%, 91%);
+    background-color: hsl(240, 6%, 94%);
+    font-family: "Karla", sans-serif;
 }
 
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+form{
+    background-color: white;
+    padding: 4em;
+    margin: 10vh 10vw 10vh 10vw;
+    border-radius: 2%;
+}
+.campoNome{
+    display: flex;
+}
+.primeiroNome input, .sobrenome input{
+    width: 100%;
+    height: 5vh ;
+    border-radius: 0.5em;
+    border: 1px solid; color: rgb(214, 208, 208);
+    
+}
+.primeiroNome {
+    margin-right:0.5em;
+}
+
+.campoEmail input{
+margin: 0.5em;
+border:1px solid ; color: lightgrey;
+width: 100%;
+height: 4vh;
+}
